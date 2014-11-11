@@ -63,3 +63,26 @@
   background: #57A957;
   border: 1px solid #4c964d;
   color: #FFF; }
+
+/* customs */
+div.tagline {
+  font-size: 1.2em;
+  color: #999;
+  margin-left: 1.2em;
+}
+
+div.date {
+  font-size: 0.9em;
+  color: #999;
+  text-align: right;
+}
+
+.navbar-default {
+  background-color: #ddd;
+}
+.navbar-default a {
+  border-bottom: solid 2px #ddd;
+}
+.navbar-default a:hover {
+  border-bottom: solid 2px #5e5e5e;
+}

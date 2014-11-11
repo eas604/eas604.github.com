@@ -1,8 +1,10 @@
 ---
 layout: post
 title:  "Relevant skills in computing education"
-date:   2014-11-11 11:54:21
+date:   2014-11-11 17:35:44
 categories: education
+tags: education
+tagline: Make students employable!
 ---
 In a few short weeks, I will finish an Information Systems MS program. I'm a Spanish major who nevertheless went into
 work as a programmer, so the more formal education in computing has been an invaluable supplement to what I have taught
@@ -18,10 +20,10 @@ and are astounded when they are lacking.
 
 The MS program I am finishing is a two-year program. I am in my final semester. This is the first time any of the
 professors has mentioned source control. The first! And, in this case, in a class wherein thirty-two different students
-must collaborate on the same .NET and SQL codebases, source control was considered an option rather than a
+must collaborate on the same .NET and SQL codebase, source control was considered an option rather than a
 requirement.
 
-Thirty-two students. Source control *optional*.
+Thirty-two contributors. Source control *optional*.
 
 My message to any educators who may stumble upon this post is this: fundamentals are important. Don't sacrifice them.
 But please, in order to graduate the best-prepared students possible, supplement the fundamentals with work-critical
