@@ -100,6 +100,11 @@ div.date {
   padding-right: 15px;
 }
 
+.posts {
+  line-height: 1.5em;
+  list-style: none;
+}
+
 .icon > svg {
   display: inline-block;
   width: 16px;

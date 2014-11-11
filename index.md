@@ -5,12 +5,13 @@ tagline: "\"Well, here I am.\""
 ---
 
 ## Posts
-
-<ul class="posts">
-  {% for post in site.posts %}
-    <li><span>{{ post.date | date: "%Y-%b-%-d" }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
+<div class="jumbotron">
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date: "%Y-%b-%-d" }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
 
 ## About
 
@@ -22,5 +23,5 @@ Rothfuss](http://blog.patrickrothfuss.com/) is the most underrated author of our
 
 ### The Author
 
-My name is Edwin Sheldon. I'm a software engineer who has worked in the GIS and HIT industries. I code mainly in Python
-and C#, and am a bit of a Linux/Unix enthusiast. Es mi dios la libertad.
+My name is Edwin Sheldon. I'm a software engineer who has worked in the GIS and HIT industries. I code mainly in Python,
+C#, and JavaScript. I'm a bit of a Linux/Unix enthusiast. Es mi dios la libertad.
