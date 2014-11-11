@@ -11,13 +11,14 @@ markdown: kramdown
 # Themes are encouraged to use these universal variables
 # so be sure to set them if your theme uses them.
 #
-title : Objects in Heapspace
+title : Objects in Heap Space
 tagline: Wherein I am wrong about things
 author :
   name : Edwin Sheldon
   email : edwin.sheldon@gmail.com
   github : eas604
   twitter : ed_win_s
+  linkedin_url: http://www.linkedin.com/pub/edwin-sheldon/5b/10/222
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt

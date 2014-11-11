@@ -1,36 +1,10 @@
 ---
 layout: page
-title: Hello World!
-tagline: Supporting tagline
+title: Objects in Heap Space
+tagline: "\"Well, here I am.\""
 ---
-{% include JB/setup %}
 
-Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
-
-Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
-
-## Update Author Attributes
-
-In `_config.yml` remember to specify your own data:
-    
-    title : My Blog =)
-    
-    author :
-      name : Name Lastname
-      email : blah@email.test
-      github : username
-      twitter : username
-
-The theme should reference these variables whenever needed.
-    
-## Sample Posts
-
-This blog contains sample posts which help stage pages and blog data.
-When you don't need the samples anymore just delete the `_posts/core-samples` folder.
-
-    $ rm -rf _posts/core-samples
-
-Here's a sample "posts list".
+## Posts
 
 <ul class="posts">
   {% for post in site.posts %}
@@ -38,8 +12,15 @@ Here's a sample "posts list".
   {% endfor %}
 </ul>
 
-## To-Do
+## About
 
-This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/dbtek/jekyll-bootstrap-3)!
+### This Blog
 
+This is just a place for me to muse about topics that interest me. These things may include (but are not limited to):
+programming, IT, running, Spanish, transportation infrastructure, craft beer, *Firefly*, and reasons why [Patrick
+Rothfuss](http://blog.patrickrothfuss.com/) is the most underrated author of our generation.
 
+### The Author
+
+My name is Edwin Sheldon. I'm a software engineer who has worked in the GIS and HIT industries. I code mainly in Python
+and C#, and am a bit of a Linux/Unix enthusiast. Es mi dios la libertad.

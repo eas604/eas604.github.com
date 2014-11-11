@@ -86,3 +86,24 @@ div.date {
 .navbar-default a:hover {
   border-bottom: solid 2px #5e5e5e;
 }
+
+.contact-list,
+.social-media-list {
+  list-style: none;
+  display: inline-block;
+  margin-left: 0;
+}
+
+.social-media-list li {
+  line-height: 28px;
+  float: left;
+  padding-right: 15px;
+}
+
+.icon > svg {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  vertical-align: middle; }
+.icon > svg path {
+  fill: #828282; }
