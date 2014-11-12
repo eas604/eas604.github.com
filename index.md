@@ -19,7 +19,7 @@ tagline: "\"Well, here I am.\""
 <h3>This Blog</h3>
 
 <p>This is just a place for me to muse about topics that interest me. These things may include (but are not limited to):
-programming, IT, running, Spanish, transportation infrastructure, craft beer, *Firefly*, and reasons why
+programming, IT, running, Spanish, transportation infrastructure, craft beer, <i>Firefly</i>, and reasons why
 <a href="http://blog.patrickrothfuss.com/">Patrick Rothfuss</a> is the most underrated author of our generation.</p>
 
 </div>
