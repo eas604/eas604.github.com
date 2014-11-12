@@ -12,40 +12,36 @@
 </div>
 
 <div class="row post-full">
-  <div class="col-md-12">
+  <div class="col-lg-8 col-md-6">
 
     <div class="content">
       {{ content }}
     </div>
 
-    {% unless page.categories == empty && page.tags == empty %}
-      <div class="row">
+  </div>
+  <div class="col-lg-4 col-md-6">
 
-      {% unless page.categories == empty %}
-        <div class="col-sm-4 col-md-3">
-          <hr />
-          <span>Categories</span>
-          <ul class="tag_box inline">
-            <li><i class="icon-folder-open"></i></li>
-            {% assign categories_list = page.categories %}
-            {% include JB/categories_list %}
-          </ul>
-        </div>
-      {% endunless %}
+    {% unless page.categories == empty %}
+      <div class="col-sm-6 col-md-6">
+        <hr />
+        <span>Categories</span>
+        <ul class="tag_box inline">
+          <li><i class="icon-folder-open"></i></li>
+          {% assign categories_list = page.categories %}
+          {% include JB/categories_list %}
+        </ul>
+      </div>
+    {% endunless %}
 
-      {% unless page.tags == empty %}
-        <div class="col-sm-8 col-md-9">
-          <hr />
-          <span>Tags</span>
-          <ul class="tag_box inline">
-            <li><i class="icon-tags"></i></li>
-            {% assign tags_list = page.tags %}
-            {% include JB/tags_list %}
-          </ul>
-        </div>
-      {% endunless %}
-
-
+    {% unless page.tags == empty %}
+      <div class="col-sm-6 col-md-6">
+        <hr />
+        <span>Tags</span>
+        <ul class="tag_box inline">
+          <li><i class="icon-tags"></i></li>
+          {% assign tags_list = page.tags %}
+          {% include JB/tags_list %}
+        </ul>
       </div>
     {% endunless %}
 

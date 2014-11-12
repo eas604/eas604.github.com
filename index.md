@@ -15,13 +15,18 @@ tagline: "\"Well, here I am.\""
 
 ## About
 
-### This Blog
+<div class="col-md-6">
+<h3>This Blog</h3>
 
-This is just a place for me to muse about topics that interest me. These things may include (but are not limited to):
-programming, IT, running, Spanish, transportation infrastructure, craft beer, *Firefly*, and reasons why [Patrick
-Rothfuss](http://blog.patrickrothfuss.com/) is the most underrated author of our generation.
+<p>This is just a place for me to muse about topics that interest me. These things may include (but are not limited to):
+programming, IT, running, Spanish, transportation infrastructure, craft beer, *Firefly*, and reasons why
+<a href="http://blog.patrickrothfuss.com/">Patrick Rothfuss</a> is the most underrated author of our generation.</p>
 
-### The Author
+</div>
 
-My name is Edwin Sheldon. I'm a software engineer who has worked in the GIS and HIT industries. I code mainly in Python,
-C#, and JavaScript. I'm a bit of a Linux/Unix enthusiast. Es mi dios la libertad.
+<div class="col-md-6">
+<h3>The Author</h3>
+
+<p>My name is Edwin Sheldon. I'm a software engineer who has worked in the GIS and HIT industries. I code mainly in Python,
+C#, and JavaScript. I'm a bit of a Linux/Unix enthusiast. Es mi dios la libertad.</p>
+</div>
